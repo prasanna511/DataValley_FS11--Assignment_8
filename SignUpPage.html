@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign Up Form</title>
+</head>
+<body>
+<div class="container">
+  <h2>Sign up</h2>
+  <form id="signupForm">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="full name" required>
+    <br><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="gmail id" required>
+    <br><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" placeholder="8 characters" required>
+    <br><br>
+    <label for="confirmpassword">Confirm Password:</label><br>
+    <input type="confirmpassword" id="confirmpassword" name="confirmpassword" placeholder="8 characters" required>
+    <br><br>
+    <label for="date">Date Of Birth:</label><br>
+    <input  id="date" name="date" placeholder="dd/mm/yyyy" required>
+    <br><br>
+    <label for="gender">Gender:</label><br>
+    <input type="radio" id="male" name="gender">Male
+    <input type="radio" id="female" name="gender">Female
+    <input type="radio" id="other" name="gender">Other
+    <br><br>
+    <label for="photo">Insert your photo:</label><br>
+    <input type="file" id="photo" name="photo" required>
+    <br><br>
+    <label for="resume">Insert your resume:</label><br>
+    <input type="file" id="resume" name="resume" required>
+    <br><br>
+    <label for="question">Security Question:</label><br>
+    <select id="question" name="question" required>
+        <option value="">Select</option>
+        <option value="question1">What is your Favouite Colour?</option>
+        <option value="question2">Who is your Favouite Teacher?</option>
+    </select>
+    <br><br>
+    <input type="checkbox">I agree terms and conditions<br>
+    <button type="register">Register</button>
+  </form>
+</div>
+</body>
+</html>
